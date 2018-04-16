@@ -16,19 +16,15 @@ It's made for manchester United fans and users who can interact with alexa to ge
 
 The Alexa Skills Kit 
 
-AWS Lambda: This is where the backend is hosted. Instead of using a server that runs all the time, I use AWS Lambdawhich is a Function-as-a-service (FaaS) It get's called only when invoked by a user. It's serverless for me. The cost to host is almost zero and will be minimal unless there are 1 million+ requests.
+AWS Lambda: This is where the backend is hosted. Instead of using a server that runs all the time, I use AWS Lambda which is a Function-as-a-service (FaaS). It gets called only when invoked by a user. It's serverless for me. The cost to host is almost zero and will be minimal unless there are 1 million+ requests.
 
-Boto3 AWS SDK: to interact with  
+Boto3 AWS SDK: to interact with Amazon Dynamo DB for storing records
 
 Reddit PRAW API: To get the updated stats
 
-Some regex to parse
+Some regex to parse collected data
 
 Amazon Dynamo DB: to store how many times a user invokes this skill.
-
-
-
-
 
 
 ## Hire me to make a custom Alexa Skill
