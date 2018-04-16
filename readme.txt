@@ -1,1 +1,0 @@
-this script is hosted on AWS LAMBDA and connected to the Alexa skill. Currently in development. It's made for manchester United and users can interact with alexa to get the top scorer, assister, next game or ask for a joke.
